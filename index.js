@@ -15,8 +15,8 @@ app.use(express.json())
 // mongodb+srv://<db_username>:<db_password>@cluster0.i8dfsxv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 // const uri = mongodb+srv:<db_username>:<db_password>@cluster0.i8dfsxv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
-//  HobbyHub
-// aUduSGpvdXGMO8CR
+//   HobbyHub
+//  aUduSGpvdXGMO8CR
 
 console.log(process.env.DB_USER)
 console.log(process.env.DB_PASS)
