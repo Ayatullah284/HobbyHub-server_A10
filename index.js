@@ -147,7 +147,7 @@ app.delete("/groups/:id", async (req, res) => {
       return res.status(404).send({ message: "Group not found" });
     }
 
-    res.send({ message: "Group deleted successfully", result });
+    res.send({ message: "Group deleted successfully ", result });
   } catch (err) {
     console.error(err);
     res.status(500).send({ message: "Error deleting group" });
